@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTaskBE.Common\TestTaskBE.Common.csproj" />
+    <ProjectReference Include="..\TestTaskBE.ViewModels\TestTaskBE.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

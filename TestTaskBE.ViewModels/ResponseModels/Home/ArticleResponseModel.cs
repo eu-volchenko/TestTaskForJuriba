@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TestTaskBE.ViewModels.HomeViewModels
+namespace TestTaskBE.Contracts.ResponseModels.Home
 {
     public class ArticleResponseModel
     {

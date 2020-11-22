@@ -2,5 +2,9 @@
 {
     public enum SectionType
     {
+        None,
+        Home,
+        World,
+        Opinion
     }
 }

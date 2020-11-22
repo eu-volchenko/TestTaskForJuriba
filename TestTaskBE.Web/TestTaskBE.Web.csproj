@@ -15,6 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TestTaskBE.BusinessLogic.Interfaces\TestTaskBE.BusinessLogic.Interfaces.csproj" />
+    <ProjectReference Include="..\TestTaskBE.BusinessLogic\TestTaskBE.BusinessLogic.csproj" />
+    <ProjectReference Include="..\TestTaskBE.Common\TestTaskBE.Common.csproj" />
     <ProjectReference Include="..\TestTaskBE.ViewModels\TestTaskBE.Contracts.csproj" />
   </ItemGroup>
 

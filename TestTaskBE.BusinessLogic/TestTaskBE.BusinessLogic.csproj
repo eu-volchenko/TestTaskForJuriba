@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTaskBE.BusinessLogic.Interfaces\TestTaskBE.BusinessLogic.Interfaces.csproj" />
+    <ProjectReference Include="..\TestTaskBE.Common\TestTaskBE.Common.csproj" />
+  </ItemGroup>
+
+</Project>

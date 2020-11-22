@@ -1,10 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Newtonsoft.Json;
+using System.Net;
 
 namespace TestTaskBE.Common.Helpers
 {
-    public class WebHelper
+    public static class WebHelper
     {
+        public static T Get<T>(string uri) where T : class, new()
+        {
+            using (var webClient = new WebClient())
+            {
+                var json = webClient.DownloadString(uri);
+
+                return JsonConvert.DeserializeObject<T>(json);
+            }
+        }
     }
 }
